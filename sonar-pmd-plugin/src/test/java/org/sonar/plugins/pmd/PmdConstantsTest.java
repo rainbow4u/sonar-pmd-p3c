@@ -27,7 +27,7 @@ class PmdConstantsTest {
 
     @Test
     void checkDefinedKeys() {
-        assertThat(PmdConstants.PLUGIN_NAME).isEqualTo("PMD");
+        assertThat(PmdConstants.PLUGIN_NAME).isEqualTo("PMD-P3C");
         assertThat(PmdConstants.PLUGIN_KEY).isEqualTo("pmd");
         assertThat(PmdConstants.REPOSITORY_KEY).isEqualTo("pmd");
         assertThat(PmdConstants.REPOSITORY_NAME).isEqualTo("PMD");
